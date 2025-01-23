@@ -24,7 +24,8 @@ gem 'cucumber', '~> 2.4',   require: false # Latest 3.0.0.pre.1
 
 gem "timecop", "~> 0.6.3" # Latest 0.8.1
 gem "nokogiri"            # Latest 1.7.1
-gem "kramdown"            # Latest 1.13.2
+gem 'kramdown', '1.2.0', path: "./kramdown/pkg/kramdown-1.2.0"
+
 
 # Code Quality
 gem 'rubocop',                   '~> 0.24', require: false # Latest 0.47.1
